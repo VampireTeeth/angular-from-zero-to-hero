@@ -2,7 +2,7 @@
 <html lang="en" ng-app="contactsapp" >
 <head >
 	<title >Lists Of Things</title >
-	<link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
 	<link href="contactsapp.css" rel="stylesheet" >
 </head >
 
@@ -33,7 +33,7 @@
 			<th>{{$index}}</th>
 			<th>{{person.name}}</th>
 			<th>{{person.email}}</th>
-			<th>{{person.birthdate}}</th>
+			<th>{{person.birthdate | date: 'longDate'}}</th>
 		</tr>
 	</table>
 </div >

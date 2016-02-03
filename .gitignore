@@ -5,3 +5,6 @@ bower_components/
 tmp
 .DS_Store
 .idea
+bower
+http-server
+angular-seed@0.0.0
