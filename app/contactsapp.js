@@ -8,6 +8,7 @@ app.controller('PersonsController', function($scope){
 	$scope.selectPerson = function(index) {
 		console.log("Person " + index + " clicked.");
 		$scope.selectedIndex = index;
+
 	};
 
 	$scope.persons = [
